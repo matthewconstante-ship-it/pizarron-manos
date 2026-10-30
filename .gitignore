@@ -1,0 +1,9 @@
+# Python: entorno virtual y modelo (se reinstalan, ver README)
+python/.venv/
+python/hand_landmarker.task
+__pycache__/
+
+# Dibujos guardados desde el pizarrón
+processing/pizarron/pizarron-*.png
+
+.DS_Store
