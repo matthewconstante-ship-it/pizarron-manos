@@ -32,6 +32,11 @@ Cámara ─▶ python/manos.py (MediaPipe): detecta las manos
 
 ## Arrancar
 
+**Doble clic en `Abrir pizarron.command`.** Arranca el detector de manos y el pizarrón
+(sin tener que pulsar ▶). Al cerrar la ventana del pizarrón se apaga también el detector.
+
+A mano, si prefieres:
+
 1. `python/run_manos.sh` — se abre una ventana con la cámara y tus manos dibujadas (`q` para salir).
    Opciones: `--no-preview`, `--camera N`.
 2. Abre `processing/pizarron/pizarron.pde` en Processing y pulsa ▶.
